@@ -25,7 +25,8 @@ body {
 }
 
 .navbar-nav .nav-item {
-  margin: 15px; /* Adjust this value for spacing */
+  margin: 15px;
+  color: #fff;
 }
 
 .navbar-nav .nav-link {
@@ -56,8 +57,8 @@ body {
 .carousel {
   display: flex;
   overflow: hidden;
-  width: 300px; 
-  height: 300px; 
+  width: 320px; 
+  height: 320px; 
   margin: 0 auto;
 }
 
@@ -69,7 +70,7 @@ body {
 }
 
 .carousel-controls {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .prev-button,
@@ -77,7 +78,7 @@ body {
   display: inline-block;
   font-size: 20px;
   cursor: pointer;
-  padding: 10px;
+  padding: 60px;
   color: gray;
   transition: color 0.3s;
 }
